@@ -1,39 +1,29 @@
-
-<!DOCTYPE html>
+```html
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="The Arena sports news, features and analysis.">
 
-    <meta name="description"
-        content="The Arena - Independent sports news, stories, analysis and guides covering cricket, football, basketball and tennis.">
-
-    <meta name="keywords"
-        content="sports news, cricket, football, basketball, tennis, sports analysis">
-
-    <title>The Arena | Sports News & Analysis</title>
-
+    <title>Sports News & Analysis | The Arena</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<header>
+    <div class="container">
+        <div class="topbar">
+            <div>
+                <a class="logo" href="index.html">THE<b>ARENA</b></a>
+                <div class="tagline">Sports news • stories • analysis</div>
+            </div>
+            <div class="tagline">Independent sports coverage</div>
+        </div>
 
-<header class="site-header">
-
-    <div class="container header-inner">
-
-        <a href="index.html" class="logo">
-            THE<span>ARENA</span>
-        </a>
-
-        <p class="tagline">
-            Sports news · stories · analysis
-        </p>
-
-        <nav class="main-nav">
+        <nav>
             <a href="index.html">Home</a>
             <a href="cricket.html">Cricket</a>
             <a href="football.html">Football</a>
@@ -42,130 +32,69 @@
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
-
     </div>
-
 </header>
 
-
-<!-- ================= HERO ================= -->
-
 <section class="hero">
+    <div class="container hero-inner">
+        <div class="eyebrow">For the love of the game</div>
 
-    <div class="hero-overlay">
+        <h1>
+            Every match has a story.
+        </h1>
 
-        <div class="container hero-content">
+        <p>
+            Fresh perspectives on cricket, football, basketball and tennis.
+            Follow the tactics, people and moments behind the action.
+        </p>
 
-            <span class="eyebrow">
-                THE WORLD OF SPORT
-            </span>
-
-            <h1>
-                Every match has a story.
-            </h1>
-
-            <p>
-                Follow the moments, tactics, players and ideas that make sport worth watching.
-            </p>
-
-            <a href="#latest" class="btn">
-                Explore Latest Stories
-            </a>
-
-        </div>
-
+        <a class="btn" href="#latest">
+            Explore the stories
+        </a>
     </div>
-
 </section>
 
+<main class="container">
 
-<!-- ================= MAIN ================= -->
-
-<main>
-
-
-<!-- ================= INTRO ================= -->
-
-<section class="intro">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div>
-                <span class="small-label">
-                    WELCOME TO THE ARENA
-                </span>
-
-                <h2>
-                    More than just the score.
-                </h2>
-            </div>
-
-            <p>
-                The Arena brings together sports stories, practical explainers
-                and tactical analysis for fans who want to understand the game
-                as well as enjoy it.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FEATURED ================= -->
-
-<section class="featured">
-
-    <div class="container">
+    <section style="margin-bottom:45px">
 
         <div class="section-title">
-
-            <span class="small-label">
-                FEATURED
-            </span>
-
-            <h2>
-                Stories worth reading
-            </h2>
-
+            <div>
+                <h2>Top stories</h2>
+                <p>
+                    Big ideas and useful explainers from across the sporting world.
+                </p>
+            </div>
         </div>
 
+        <div class="feature-grid">
 
-        <div class="featured-grid">
-
-
-            <!-- FEATURE 1 -->
-
-            <article class="featured-card">
+            <article class="feature">
 
                 <a href="cricket.html">
 
                     <img
-                        src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1400&q=85"
+                        src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1000&q=85"
                         alt="Cricket match in a stadium">
 
-                    <div class="card-content">
+                    <div class="feature-body">
 
-                        <span class="category">
-                            CRICKET
-                        </span>
+                        <div class="category">
+                            Featured · Cricket
+                        </div>
 
                         <h3>
                             How T20 teams build a winning powerplay
                         </h3>
 
                         <p>
-                            Explore the decisions behind aggressive batting,
-                            bowling match-ups, field restrictions and early
-                            momentum.
+                            Discover the decisions that shape the first six overs,
+                            from batting intent to bowling match-ups.
                         </p>
 
-                        <span class="read-more">
-                            Read Story →
-                        </span>
+                        <div class="meta">
+                            THE ARENA EDITORIAL · 5 MIN READ
+                        </div>
 
                     </div>
 
@@ -174,247 +103,7 @@
             </article>
 
 
-            <!-- FEATURE 2 -->
-
-            <article class="featured-card">
-
-                <a href="football.html">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1400&q=85"
-                        alt="Football match in a stadium">
-
-                    <div class="card-content">
-
-                        <span class="category">
-                            FOOTBALL
-                        </span>
-
-                        <h3>
-                            Understanding the modern high press
-                        </h3>
-
-                        <p>
-                            Learn how coordinated pressing forces mistakes,
-                            controls space and changes the rhythm of a match.
-                        </p>
-
-                        <span class="read-more">
-                            Read Story →
-                        </span>
-
-                    </div>
-
-                </a>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= SPORTS ================= -->
-
-<section class="sports-section">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span class="small-label">
-                EXPLORE SPORTS
-            </span>
-
-            <h2>
-                Choose your game
-            </h2>
-
-        </div>
-
-
-        <div class="sports-grid">
-
-
-            <!-- CRICKET -->
-
-            <a href="cricket.html" class="sport-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1000&q=85"
-                    alt="Cricket player">
-
-                <div class="sport-overlay">
-
-                    <span>
-                        SPORT
-                    </span>
-
-                    <h3>
-                        Cricket
-                    </h3>
-
-                    <p>
-                        Matches, tactics and stories.
-                    </p>
-
-                </div>
-
-            </a>
-
-
-            <!-- FOOTBALL -->
-
-            <a href="football.html" class="sport-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1000&q=85"
-                    alt="Football player">
-
-                <div class="sport-overlay">
-
-                    <span>
-                        SPORT
-                    </span>
-
-                    <h3>
-                        Football
-                    </h3>
-
-                    <p>
-                        Tactics, players and matches.
-                    </p>
-
-                </div>
-
-            </a>
-
-
-            <!-- BASKETBALL -->
-
-            <a href="basketball.html" class="sport-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1000&q=85"
-                    alt="Basketball game">
-
-                <div class="sport-overlay">
-
-                    <span>
-                        SPORT
-                    </span>
-
-                    <h3>
-                        Basketball
-                    </h3>
-
-                    <p>
-                        Strategy, movement and scoring.
-                    </p>
-
-                </div>
-
-            </a>
-
-
-            <!-- TENNIS -->
-
-            <a href="tennis.html" class="sport-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1000&q=85"
-                    alt="Tennis player">
-
-                <div class="sport-overlay">
-
-                    <span>
-                        SPORT
-                    </span>
-
-                    <h3>
-                        Tennis
-                    </h3>
-
-                    <p>
-                        Players, surfaces and strategy.
-                    </p>
-
-                </div>
-
-            </a>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= LATEST STORIES ================= -->
-
-<section class="latest" id="latest">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span class="small-label">
-                LATEST FEATURES
-            </span>
-
-            <h2>
-                From the sporting world
-            </h2>
-
-        </div>
-
-
-        <div class="article-grid">
-
-
-            <!-- ARTICLE 1 -->
-
-            <article class="article-card">
-
-                <a href="cricket.html">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1000&q=85"
-                        alt="Cricket match">
-
-                    <div class="article-content">
-
-                        <span class="category">
-                            CRICKET
-                        </span>
-
-                        <h3>
-                            What makes a bowling partnership effective?
-                        </h3>
-
-                        <p>
-                            Discover how pace variation, field settings and
-                            pressure work together throughout an innings.
-                        </p>
-
-                        <span class="read-more">
-                            Explore →
-                        </span>
-
-                    </div>
-
-                </a>
-
-            </article>
-
-
-            <!-- ARTICLE 2 -->
-
-            <article class="article-card">
+            <article class="feature side-feature">
 
                 <a href="football.html">
 
@@ -422,24 +111,106 @@
                         src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=85"
                         alt="Football match">
 
-                    <div class="article-content">
+                    <div class="feature-body">
 
-                        <span class="category">
-                            FOOTBALL
-                        </span>
+                        <div class="category">
+                            Tactics · Football
+                        </div>
 
                         <h3>
-                            How teams play out from the back
+                            The modern high press explained
                         </h3>
 
                         <p>
-                            Learn how passing angles, goalkeeper distribution
-                            and movement create space.
+                            See how coordinated pressure can change the flow of a match.
                         </p>
 
-                        <span class="read-more">
-                            Explore →
-                        </span>
+                        <div class="meta">
+                            TACTICS GUIDE · 4 MIN READ
+                        </div>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <div class="banner">
+
+        <div>
+
+            <div class="eyebrow">
+                Beyond the scoreboard
+            </div>
+
+            <h2>
+                Understand the game. Enjoy every moment.
+            </h2>
+
+            <p>
+                Explore practical guides that make the tactics and traditions
+                of sport easier to follow.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <section id="latest">
+
+        <div class="section-title">
+
+            <div>
+
+                <h2>
+                    Latest features
+                </h2>
+
+                <p>
+                    Browse our sports coverage and evergreen guides.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="story-grid">
+
+
+            <article class="story">
+
+                <a href="cricket.html">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1000&q=85"
+                        alt="Cricket sports photography"
+                        loading="lazy">
+
+                    <div class="story-body">
+
+                        <div class="category">
+                            Cricket
+                        </div>
+
+                        <h3>
+                            How T20 teams build a winning powerplay
+                        </h3>
+
+                        <p>
+                            A practical look at intent, match-ups, field restrictions
+                            and smart risk-taking in the opening overs.
+                        </p>
+
+                        <div class="meta">
+                            FEATURE · 4 MIN READ
+                        </div>
 
                     </div>
 
@@ -448,34 +219,68 @@
             </article>
 
 
-            <!-- ARTICLE 3 -->
+            <article class="story">
 
-            <article class="article-card">
+                <a href="football.html">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=85"
+                        alt="Football sports photography"
+                        loading="lazy">
+
+                    <div class="story-body">
+
+                        <div class="category">
+                            Football
+                        </div>
+
+                        <h3>
+                            The modern high press explained
+                        </h3>
+
+                        <p>
+                            Understand pressing triggers, compact defensive lines
+                            and how teams force mistakes high up the pitch.
+                        </p>
+
+                        <div class="meta">
+                            FEATURE · 4 MIN READ
+                        </div>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <article class="story">
 
                 <a href="basketball.html">
 
                     <img
                         src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1000&q=85"
-                        alt="Basketball game">
+                        alt="Basketball sports photography"
+                        loading="lazy">
 
-                    <div class="article-content">
+                    <div class="story-body">
 
-                        <span class="category">
-                            BASKETBALL
-                        </span>
+                        <div class="category">
+                            Basketball
+                        </div>
 
                         <h3>
                             Why spacing creates better scoring chances
                         </h3>
 
                         <p>
-                            Understand how movement and spacing create driving
-                            lanes and high-quality shots.
+                            How off-ball movement and court spacing open driving lanes
+                            and create high-quality shots.
                         </p>
 
-                        <span class="read-more">
-                            Explore →
-                        </span>
+                        <div class="meta">
+                            FEATURE · 4 MIN READ
+                        </div>
 
                     </div>
 
@@ -484,34 +289,33 @@
             </article>
 
 
-            <!-- ARTICLE 4 -->
-
-            <article class="article-card">
+            <article class="story">
 
                 <a href="tennis.html">
 
                     <img
                         src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1000&q=85"
-                        alt="Tennis court">
+                        alt="Tennis sports photography"
+                        loading="lazy">
 
-                    <div class="article-content">
+                    <div class="story-body">
 
-                        <span class="category">
-                            TENNIS
-                        </span>
+                        <div class="category">
+                            Tennis
+                        </div>
 
                         <h3>
                             How court surfaces change the match
                         </h3>
 
                         <p>
-                            A simple guide to clay, grass and hard courts and
-                            how each surface affects play.
+                            A beginner-friendly guide to clay, grass and hard courts,
+                            and the way each surface affects play.
                         </p>
 
-                        <span class="read-more">
-                            Explore →
-                        </span>
+                        <div class="meta">
+                            FEATURE · 4 MIN READ
+                        </div>
 
                     </div>
 
@@ -520,34 +324,33 @@
             </article>
 
 
-            <!-- ARTICLE 5 -->
-
-            <article class="article-card">
+            <article class="story">
 
                 <a href="cricket.html">
 
                     <img
                         src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1000&q=85"
-                        alt="Cricket player">
+                        alt="Cricket sports photography"
+                        loading="lazy">
 
-                    <div class="article-content">
+                    <div class="story-body">
 
-                        <span class="category">
-                            CRICKET
-                        </span>
+                        <div class="category">
+                            Cricket
+                        </div>
 
                         <h3>
-                            The importance of fielding in modern cricket
+                            What makes a bowling partnership effective?
                         </h3>
 
                         <p>
-                            See how athletic fielding can save runs, create
-                            pressure and change important moments.
+                            Explore pace variation, field settings and pressure-building
+                            plans across an innings.
                         </p>
 
-                        <span class="read-more">
-                            Explore →
-                        </span>
+                        <div class="meta">
+                            FEATURE · 4 MIN READ
+                        </div>
 
                     </div>
 
@@ -556,34 +359,33 @@
             </article>
 
 
-            <!-- ARTICLE 6 -->
-
-            <article class="article-card">
+            <article class="story">
 
                 <a href="football.html">
 
                     <img
                         src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1000&q=85"
-                        alt="Football stadium">
+                        alt="Football sports photography"
+                        loading="lazy">
 
-                    <div class="article-content">
+                    <div class="story-body">
 
-                        <span class="category">
-                            FOOTBALL
-                        </span>
+                        <div class="category">
+                            Football
+                        </div>
 
                         <h3>
-                            Why movement without the ball matters
+                            How teams play out from the back
                         </h3>
 
                         <p>
-                            Off-ball movement can open passing lanes and create
-                            opportunities before the ball arrives.
+                            Learn about goalkeeper distribution, passing angles
+                            and creating numerical advantages.
                         </p>
 
-                        <span class="read-more">
-                            Explore →
-                        </span>
+                        <div class="meta">
+                            FEATURE · 4 MIN READ
+                        </div>
 
                     </div>
 
@@ -591,104 +393,33 @@
 
             </article>
 
-
         </div>
 
-    </div>
-
-</section>
-
-
-<!-- ================= CTA ================= -->
-
-<section class="cta">
-
-    <div class="container">
-
-        <div class="cta-box">
-
-            <span class="small-label">
-                THE ARENA
-            </span>
-
-            <h2>
-                Follow the game beyond the scoreboard.
-            </h2>
-
-            <p>
-                Read practical sports guides, tactical explainers and stories
-                designed for fans who want to understand the action.
-            </p>
-
-            <a href="about.html" class="btn">
-                About The Arena
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
+    </section>
 
 </main>
 
 
-<!-- ================= FOOTER ================= -->
-
-<footer class="site-footer">
+<footer>
 
     <div class="container">
 
-        <div class="footer-main">
+        <div class="footer-row">
 
-            <div class="footer-brand">
+            <div>
 
-                <a href="index.html" class="logo">
-                    THE<span>ARENA</span>
+                <a class="logo" href="index.html">
+                    THE<b>ARENA</b>
                 </a>
 
-                <p>
-                    Independent sports information, stories and analysis.
-                </p>
+                <div class="tagline">
+                    The game goes beyond the score.
+                </div>
 
             </div>
 
 
             <div class="footer-links">
-
-                <h4>
-                    Explore
-                </h4>
-
-                <a href="index.html">
-                    Home
-                </a>
-
-                <a href="cricket.html">
-                    Cricket
-                </a>
-
-                <a href="football.html">
-                    Football
-                </a>
-
-                <a href="basketball.html">
-                    Basketball
-                </a>
-
-                <a href="tennis.html">
-                    Tennis
-                </a>
-
-            </div>
-
-
-            <div class="footer-links">
-
-                <h4>
-                    Information
-                </h4>
 
                 <a href="about.html">
                     About
@@ -713,20 +444,14 @@
 
         <div class="copyright">
 
-            <p>
-                © 2026 The Arena. Independent sports information website.
-            </p>
-
-            <p>
-                The Arena is not affiliated with any league, club or governing body.
-            </p>
+            © 2026 The Arena. Independent sports information website.
+            Not affiliated with any league, club or governing body.
 
         </div>
 
     </div>
 
 </footer>
-
 
 </body>
 </html>
